@@ -282,3 +282,56 @@ html{
     padding: 20px;
 }
 /* footer */
+
+/* contact us */
+.contact-us{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.contact-us h3{
+    font-size: 17px;
+    color: crimson;
+}
+.contact-us h2{
+    color: crimson;
+}
+
+.contact-us form input{
+    color: white;
+    border: 1px solid white;
+    background-color: #464c77;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+.contact-us form textarea{
+        color: white;
+        border: 1px solid white;
+        background-color: #464c77;
+        border-radius: 3px;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin-top: 15px;
+}
+.contact-us h5{
+    color: white;
+}
+
+.contact-us button{
+    border: none;
+    color: white;
+    background-color: #ff6d6d;
+    border-radius: 3px;
+    padding: 11px 90px;
+    font-size: 20px;
+}
+.contact-us p{
+    color:gray;
+}
+.contact-us p a{
+    color:gray;
+}
+
+/* contact us */
