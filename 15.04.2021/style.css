@@ -12,6 +12,31 @@
 html{
     scroll-behavior: smooth;
 }
+/* header */
+.header{
+    transition: all 0.5s;
+    z-index: 997;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+.header ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #7e7d7d;
+}
+.header ul li a.active{
+    color: #b8a07e;
+}
+.header ul li a:hover{
+    color: #b8a07e;
+    transition: 0.3s;
+}
+.header ul li{
+    padding: 10px;
+}
+.img{
+    padding: 20px;
+}
 /* home */
 .home{
     background-image: url("images/Clouds.png");
@@ -30,7 +55,8 @@ html{
     cursor: pointer;
     margin-top: 10px;
 }
-.home a{
+.home button{
+    border: none;
     text-decoration: none;
     background-color: #ff6d6d;
     color: white;
