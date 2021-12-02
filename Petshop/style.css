@@ -179,14 +179,11 @@
 /*მთავრდება petmart*/
 /*იწყება about*/
 
-#content-about-left h1{
-    font-size: 30px;
-}
 #content-about-left h2 a{
     margin-top: 30px;
     text-decoration: none;
     color: #ff9600;
-    font-size: 25px;
+
 }
 #content-about-left p{
     margin-top: 5px;
@@ -311,13 +308,13 @@
     background-position: top left;
 }
 .blog-post-header h2{
-    font-size: 18px;
+
     color: white;
     margin-top: 19px;
     margin-left: 25px;
 }
 .blog-post-header span{
-    font-size: 30px;
+
     color: #ffc600;
     margin-left: 50px;
 }
@@ -329,7 +326,7 @@
     border-top: 1px solid rgb(224, 222, 222);
     margin-top: 20px;
     margin-left: 40px;
-    font-size: 22px;
+
 }
 #blog-new a{
     text-decoration: none;
@@ -343,7 +340,7 @@
     margin-right: 20px;
     margin-top: 20px;
     color: #b4b2b2;
-    font-size: 22px;
+
 }
 #blog-old a{
     text-decoration: none;
@@ -380,7 +377,7 @@
     text-align: center;
 }
 .blog-menu a{
-    font-size: 20px;
+
     color: #948058;
 }
 .blog-menu a:hover{
@@ -392,7 +389,7 @@
 }
 .dropdown-blog-menu span{
     margin-left: 10px;
-    font-size: 30px;
+
     color: #ffc600;
 }
 .dropdown-blog-menu:hover .blog-menu{
@@ -421,7 +418,7 @@
     text-align: center;
 }
 .guide-post-header h2{
-    font-size: 20px;
+
     color: white;
 }
 .guide-left-posts p{
@@ -480,3 +477,5 @@
     margin-left: 20px;
     color: grey;
 }
+
+
