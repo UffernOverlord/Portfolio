@@ -44,10 +44,10 @@
       <section class="row">
         <section class="col-lg-12 d-flex justify-content-center">
           <ul class="portfolio-flters list-unstyled">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter="*" class="filter-active"  id="all"> <a  class="text-decoration-none" href="#"> All</a></li>
+            <li data-filter=".filter-app"  id="app"> <a  class="text-decoration-none" href="#"> App</a></li>
+            <li data-filter=".filter-card"  id="card" ><a  class="text-decoration-none"  href="#"> Card</a></li>
+            <li data-filter=".filter-web"  id="web">  <a class="text-decoration-none"  href="#"> Web</a></li>
           </ul>
         </section>
       </section>
@@ -104,7 +104,7 @@
           </section>
         </section>
 
-        <section class="col-lg-4 col-md-6 portfolio-item filter-app mt-5">
+        <section  class="col-lg-4 col-md-6 portfolio-item filter-app mt-5">
           <img src="images/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
           <section class="portfolio-info">
             <h4>App 3</h4>
@@ -145,16 +145,16 @@
                 </ul>
              </section>
              <section class="col-12 col-sm-12 col-md-3 col-lg-3 fil">
-                <h2>Get Newsletter</h2>
-               <form method="POST" action="index.html" style="position: relative;">
-                   <input type="email" name="address" placeholder=" EMAIL">
-                   <img src="images/PaperPlane.png" alt="">
-               </form>
-               <i class="fa fa-dribbble" aria-hidden="true"></i>
-               <i class="fab fa-facebook-f"></i>
-               <i class="fa fa-google-plus-square" aria-hidden="true"></i>
-               <i class="fa fa-twitter" aria-hidden="true"></i>
-             </section>
+              <h2>Get Newsletter</h2>
+             <form method="POST" action="index.html" class="col-12" >
+                 <input type="email" name="address" class="col-12" placeholder=" EMAIL">
+                 <img src="images/PaperPlane.png" alt="">
+             </form>
+             <i class="fa fa-dribbble" aria-hidden="true"></i>
+             <i class="fab fa-facebook-f"></i>
+             <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+             <i class="fa fa-twitter" aria-hidden="true"></i>
+           </section>
         </section>
     </section>
 </section>
@@ -164,5 +164,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.8.6/umd/popper.min.js" 
 integrity="sha512-jbqFEuvOwSwKyG+POu/cFuLrOaMjIjYO4NVGzs2+h3fidvrLOQ7LLc1yf+LIKmm9SfEP+ZTpbLlu41jmILbRyw==" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>

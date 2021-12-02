@@ -220,16 +220,11 @@ html{
 .designers h5{
     color: white;
 }
-.designers img{
-    padding-right: 240px;
-    padding-bottom: 25px;
-}
 .designers button{
     border: none;
     color: white;
     background-color: #ff6d6d;
     border-radius: 3px;
-    padding: 11px 90px;
     font-size: 20px;
 }
 .designers p{
@@ -356,8 +351,14 @@ html{
     display: inline;
     color:#b8a07e;
 }
+.portfolio-flters li a{
+    color: #b8a07e; 
+}
 .portfolio-info{
     opacity: 0;
+}
+.portfolio-item:hover .portfolio-info{
+    opacity: 100;
     z-index: 3;
     bottom: 12px;
     left: 10%;
@@ -384,3 +385,16 @@ html{
     padding: 0;
 }
 /* about */
+
+/* media */
+
+
+
+  @media only screen and (max-width: 1024px)and (min-width: 1024px) {
+    .fors button{
+        position: relative;
+        margin-top: 100px;
+        margin-left: 30px!important;
+        padding: 12px 40px!important;
+    }
+}
