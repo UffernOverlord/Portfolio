@@ -7,27 +7,47 @@ var appfilt = document.querySelectorAll('.filter-app');
 var cardfilt = document.querySelectorAll('.filter-card');
 var webfilt = document.querySelectorAll('.filter-web');
 
-
-console.log(appfilt);
-// all.onclick() = function(e){
-//     appfilt.style.display = "block";
-//     cardfilt.style.display = "block";
-//     webfilt.style.display = "block";
-// }
-
-// app.onclick() = function(e){
-//     appfilt.style.display = "block";
-//     cardfilt.style.display = "none";
-//     webfilt.style.display = "none";
-// }
-// card.onclick() = function(e){
-//     appfilt.style.display = "none";
-//     cardfilt.style.display = "block";
-//     webfilt.style.display = "none";
-// }
-// web.onclick() = function(e){
-//     appfilt.style.display = "none";
-//     cardfilt.style.display = "none";
-//     webfilt.style.display = "block";
-// }
-
+all.addEventListener('click', () => {
+    for (let i = 0; i < appfilt.length; i++) {
+        appfilt[i].style.display = 'block'
+    }
+    for (let i = 0; i < cardfilt.length; i++) {
+        cardfilt[i].style.display = 'block'
+    }
+    for (let i = 0; i < webfilt.length; i++) {
+        webfilt[i].style.display = 'block'
+    }
+})
+app.addEventListener('click', () => {
+    for (let i = 0; i < appfilt.length; i++) {
+        appfilt[i].style.display = 'block'
+    }
+    for (let i = 0; i < cardfilt.length; i++) {
+        cardfilt[i].style.display = 'none'
+    }
+    for (let i = 0; i < webfilt.length; i++) {
+        webfilt[i].style.display = 'none'
+    }
+})
+card.addEventListener('click', () => {
+    for (let i = 0; i < appfilt.length; i++) {
+        appfilt[i].style.display = 'none'
+    }
+    for (let i = 0; i < cardfilt.length; i++) {
+        cardfilt[i].style.display = 'block'
+    }
+    for (let i = 0; i < webfilt.length; i++) {
+        webfilt[i].style.display = 'none'
+    }
+})
+web.addEventListener('click', () => {
+    for (let i = 0; i < appfilt.length; i++) {
+        appfilt[i].style.display = 'none'
+    }
+    for (let i = 0; i < cardfilt.length; i++) {
+        cardfilt[i].style.display = 'none'
+    }
+    for (let i = 0; i < webfilt.length; i++) {
+        webfilt[i].style.display = 'block'
+    }
+})
