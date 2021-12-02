@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@font-face{
+    font-family: webfont;
+    src: url(fonts/Playball.ttf);
+}
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* home */
+.home{
+    background-image: url("images/Clouds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 400px;
+}
+.home h1{
+    font-weight: lighter;
+    padding-top: 300px;
+    font-size: 60px;
+}
+.home img{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.home a{
+    text-decoration: none;
+    background-color: #ff6d6d;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.home p{
+    padding-top: 30px;
+}
+/* home */
+/* about */
+.about{
+    padding-top: 100px;
+}
+.rectangle{
+    background: url(images/Rectangle.png) no-repeat center;
+}
+.about h3{
+    color: crimson;
+    font-size: 20px;
+}
+.about h2 span{
+    color: crimson;
+}
+.about p{
+    padding-top: 20px;
+}
+/* about */
+/* features */
+.features{
+    background: url(images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 300px;
+
+}
+.features h3{
+    color: crimson;
+    font-size: 20px;
+}
+.fet{
+    padding-top: 50px;
+}
+.fetu{
+    padding-top: 300px;
+}
+/* features */
+/* laptop */
+.laptop{
+    background: url(images/Rectangle2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -800px;
+    background-position-y: -200px;
+}
+.laptop h2{
+    color: crimson;
+    font-size: 20px;
+}
+.feti{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feti img{
+    width: 50%;
+}
+.laptop h3{
+    font-size: 30px;
+}
+.laptop h3 span{
+    color:crimson;
+}
+.laptop p{
+    padding-top: 20px;
+    line-height: 30px;
+}
+/* laptop */
+/* clients */
+.clients{
+    background-image: url(images/ClientsBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.feto{
+    padding-top: 50px;
+}
+.clients h4{
+    color: white;
+    font-size: 30px;
+}
+.clients h3{
+    font-size: 18px;
+    color: crimson;
+}
+.clients p{
+    padding-top: 20px;
+    line-height: 30px;
+    color: gray;
+}
+.icons img{
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+/* clients */
+/* browser */
+.browser{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(images/Browser.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-bottom: 500px;
+}
+.browser h3{
+    font-size: 17px;
+    color: crimson;
+}
+.browser h2{
+    font-weight: lighter;
+}
+.browser h4{
+    padding-top: 20px;
+    color: gray;
+    font-size: 16px;
+    font-weight: lighter;
+}
+/* browser */
+/* designers */
+.designers{
+    padding-top: 100px;
+    text-align: center;
+    background-color: #2b3050;
+    padding-bottom: 150px;
+}
+.designers h3{
+    font-size: 17px;
+    color: crimson;
+}
+.designers h2{
+    color: white;
+}
+.designers .for{
+    padding-top: 200px;
+}
+.fors{
+    padding-top: 100px;
+}
+.designers form input{
+    color: white;
+    border: 1px solid white;
+    background-color: #464c77;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.designers h5{
+    color: white;
+}
+.designers img{
+    padding-right: 240px;
+    padding-bottom: 25px;
+}
+.designers button{
+    border: none;
+    color: white;
+    background-color: #ff6d6d;
+    border-radius: 3px;
+    padding: 11px 90px;
+    font-size: 20px;
+}
+.designers p{
+    color:gray;
+}
+.designers p a{
+    color:gray;
+}
+.forg{
+    padding-top: 50px;
+}
+/* designrs */
+/* footer */
+.footer{
+    padding-top: 200px;
+    background: url(images/Rectangle3.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 1200px;
+    background-position-y: -1000px;
+    padding-bottom: 200px;
+}
+.footer p{
+    padding-top: 10px;
+    line-height: 30px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer h2{
+    padding-left: 20px;
+}
+.footer ul li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+.footer form input{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size:18px;
+}
+.footer .fil img{
+    right: 30px;
+    position: absolute;
+}
+.footer i{
+    color:gray;
+    font-size: 20px;
+    padding: 20px;
+}
+/* footer */
