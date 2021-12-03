@@ -1,0 +1,481 @@
+*{
+    margin: 0 auto;
+}
+
+#inside-header{
+    background: linear-gradient(#ff9600 5%, #ffad00 95%);
+}
+
+#inside-header ul li a{
+    text-decoration: none;
+    color: #261600;
+}
+#inside-header ul li a:hover{
+    color: white;
+}
+
+.home-main-left-text h2{
+    color: #412900;
+}
+.home-main-left-text p{
+    color: #7f7154;
+}
+.home-main-left-text a{
+    color: #7f7154;
+}
+.home-main-left-text a:hover{
+    color: #ffad00;
+}
+
+#home-form{
+    width: 100%;
+    background-color: #ffac00;
+    border-radius: 10px;
+}
+#home-form form{
+    margin-left: 12.5px;
+    margin-top: 10px;
+}
+#home-form button{
+    border-radius: 5px;
+    border: 1px solid #ffc600;
+    background-color: #ffac00;
+    color: white;
+}
+#find-input{ 
+    width: 60%;
+    box-shadow: inset 0 0 5px #000000;
+    border-radius: 5px;
+    border: 1px solid #e59a00;
+    color: #b4b2b2;
+}
+#home-form label{
+    margin-top: 5px;
+}
+#home-form span{
+    margin-left: 10px;
+    color: white;
+}
+#listing-home-headers{
+    margin-top: 15px;
+}
+#listing-home-headers p a{
+    text-decoration: none;
+    color: #310000;
+}
+#listing-home-headers p a:hover{
+    color: #7f7154;
+}
+#shoppingguides{
+    border-top-left-radius: 10px;
+    background-image: url(images/shopingguides.gif);
+    
+    background-repeat: no-repeat;
+}
+#discountitems{
+    border-top-left-radius: 10px;
+    background-image: url(images/discountitems.gif);
+    
+    background-repeat: no-repeat;
+}
+#listing-home{
+    margin-top: -10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: #ffdb90;
+}
+.list{
+    margin-top: 3px;
+    margin-left: 12px;
+    background-image: url(images/bg-list-item.gif);
+    background-repeat: no-repeat;
+}
+.list p a{
+    text-decoration: none;
+    color: #948058;
+}
+.list p a:hover{
+    color: #e4a217;
+}
+#listing-see-all a{
+    text-decoration: none;
+    color: #e4a217;
+}
+#listing-see-all a:hover{
+    color: #948058;
+}
+#upper-footer{
+    background-color: #f8f3e9;
+}
+.upper-footer-post{
+    border-radius: 10px;
+}
+
+#lower-footer{
+    background-color: #ffad00;
+    text-align: center;
+    color: #261600;
+}
+#lower-footer p{
+    padding-top: 15px;
+}
+
+
+/*მთავრდება home*/
+/*იწყება petmart*/
+#pet-mart-form{
+    margin-top: 55px;
+    background-color: #ffac00;
+    border-radius: 10px;
+}
+#pet-mart-form form{
+    margin-left: 12.5px;
+    margin-top: 10px;
+}
+#pet-mart-form button{
+    border-radius: 5px;
+    border: 1px solid #ffc600;
+    background-color: #ffac00;
+    color: white;
+}
+#find-input-pet-mart{
+    box-shadow: inset 0 0 5px #000000;
+    border-radius: 5px;
+    border: 1px solid #e59a00;
+    color: #b4b2b2;
+}
+#pet-mart-form label{
+    margin-top: 5px;
+}
+#pet-mart-form span{
+    margin-left: 10px;
+    color: white;
+}
+#pet-mart-content{
+    margin-top: 50px;
+}
+
+.pet-mart-posts-left{
+    margin-top: 25px;
+}
+
+.pet-mart-posts-right{
+    margin-top: 25px;
+}
+
+.text-area{
+    margin-left: 7px;
+}
+.text-area span{
+    margin-top: 5px;
+}
+.text-area span a{
+    text-decoration: none;
+    color: #7f7154;
+}
+.text-area span a:hover{
+    color: black;
+}
+/*მთავრდება petmart*/
+/*იწყება about*/
+
+#content-about-left h2 a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ff9600;
+
+}
+#content-about-left p{
+    margin-top: 5px;
+    color: #948058;
+}
+.about-right-post{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(images/shadow.gif);
+}
+.about-right-post img{
+    margin-top: 15px;
+}
+.about-right-post h2{
+    margin-top: 15px;
+}
+.about-right-post h2 a{
+    text-decoration: none;
+    color: black;
+}
+.about-right-post h2 a:hover{
+    color: #7f7154;
+}
+.about-right-post p{
+    margin-top: 5px;
+}
+#about-form{
+    margin-top: 10px;
+    background-color: #ffac00;
+    border-radius: 10px;
+}
+#about-form form{
+    margin-left: 12.5px;
+    margin-top: 10px;
+}
+#about-form button{
+    border-radius: 5px;
+    border: 1px solid #ffc600;
+    background-color: #ffac00;
+    color: white;
+}
+#find-input-about{ 
+    box-shadow: inset 0 0 5px #000000;
+    border-radius: 5px;
+    border: 1px solid #e59a00;
+    color: #b4b2b2;
+}
+#about-form label{
+    margin-top: 5px;
+}
+#about-form span{
+    margin-left: 10px;
+    color: white;
+}
+#listing-about-headers{
+    margin-top: 25px;
+
+}
+#listing-about-headers p a{
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #310000;
+}
+#listing-about-headers p a:hover{
+    color: #7f7154;
+}
+#shoppingguidesabout{
+    text-align: center;
+    border-top-left-radius: 10px;
+    background-image: url(images/shopingguides.gif);
+    background-color: #ffdb90;
+}
+#discountitemsabout{
+    text-align: center;
+    border-top-left-radius: 10px;
+    background-image: url(images/discountitems.gif);
+    background-color: #ffdb90;
+}
+#listing-about{
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: #ffdb90;
+}
+.list{
+    margin-top: 3px;
+    margin-left: 12px;
+    background-image: url(images/bg-list-item.gif);
+    background-repeat: no-repeat;
+
+}
+.list p a{
+    margin-left: 5px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: #948058;
+}
+.list p a:hover{
+    color: #e4a217;
+}
+#listing-see-all a{
+    margin-right: 5px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: #e4a217;
+}
+#listing-see-all a:hover{
+    color: #948058;
+}
+/*მთავრდება about*/
+/*იწყება blog*/
+#blog-content{
+    margin-top: 30px;
+}
+.blog-post{
+    background-image: url(images/bg-blog-content.gif), url(images/bg-blog-bottom-curve.gif);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.blog-post-header{
+    background: url(images/bg-blog-heading.gif) no-repeat;
+    background-position: top left;
+}
+.blog-post-header h2{
+
+    color: white;
+    margin-top: 19px;
+    margin-left: 25px;
+}
+.blog-post-header span{
+
+    color: #ffc600;
+    margin-left: 50px;
+}
+#social-blog{
+    margin-right: 5px;
+    margin-top: 25px;
+}
+#blog-new{
+    border-top: 1px solid rgb(224, 222, 222);
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+#blog-new a{
+    text-decoration: none;
+    color: #b4b2b2;
+}
+#blog-new a:hover{
+    color: #ffc600;
+}
+#blog-old{
+    border-top: 1px solid rgb(224, 222, 222);
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #b4b2b2;
+
+}
+#blog-old a{
+    text-decoration: none;
+    color: #b4b2b2;
+}
+#blog-old a:hover{
+    color: #ffc600;
+}
+#blog-right{
+    margin-left: 18px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+#inside-blog-right{
+    margin-left: 10px;
+    margin-top: 12.5px;
+}
+#inside-blog-right h2{
+    margin-left: 20px;
+}
+.dropdown-blog-menu{
+    margin-top: 10px;
+    padding: 20px 0px 10px 0px;
+    border-top: 1px solid #ebebeb;
+    margin-left: 20px;
+}
+.dropdown-blog-menu img{
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.blog-menu{
+    display: none;
+    position: absolute;
+    text-align: center;
+}
+.blog-menu a{
+
+    color: #948058;
+}
+.blog-menu a:hover{
+    color: #ffc600;
+}
+.dropdown-blog-menu{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-blog-menu span{
+    margin-left: 10px;
+
+    color: #ffc600;
+}
+.dropdown-blog-menu:hover .blog-menu{
+    position: static;
+    display: block;
+}
+.dropdown-blog-menu:hover span{
+    background-color: transparent;
+}
+/*მთავრდება blog*/
+/*იწყება guide*/
+
+#guide-content{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.guide-left-posts{
+    margin-top: 40px;
+}
+.guide-right-posts{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.guide-post-header{
+    background-color: #ff9d11;
+    text-align: center;
+}
+.guide-post-header h2{
+
+    color: white;
+}
+.guide-left-posts p{
+    margin-top: 5px;
+}
+#guide-right{
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-left: 58px;
+    border: 1px solid #ebebeb;
+}
+#inside-guide-right{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+#inside-guide-right p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#inside-guide-right p a{
+    text-decoration: none;
+    color: #766048;
+}
+#inside-guide-right p a:hover{
+    color: #e59a00;
+}
+/*მთავრდება guide*/
+/*იწყება contact*/
+
+#contact-content{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+#contact-left h3{
+    margin-top: 80px;
+    color: #e4a217;
+    border-bottom: 1px solid grey;
+}
+#contact-left p{
+    margin-top: 10px;
+    line-height: 20px;
+    color: grey;
+}
+#contact-right{
+    margin-left: 80px;
+}
+.social-media-contact{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.social-media-contact p{
+    margin-top: 8px;
+    margin-left: 20px;
+    color: grey;
+}
+
+
